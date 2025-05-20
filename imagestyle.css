@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqYVXLz5JiyaLN4Oe0D-MHTl_37fXU4koA-w&s);
+    animation:scrolling linear 10s infinite;
+}
+@keyframes scrolling{
+    20%
+    {
+      background-image:url();
+    }
+    40%
+    {
+      background-image:url(https://www.icecric.news/wp-content/uploads/2023/03/Virat-Kohli.webp);   
+    }
+    60%
+    {
+      background-image:url(https://i.quotev.com/pibp2levaaaa.jpg); 
+    }
+    80%
+    {
+      background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY8izBQLKkmYqYR8jc0psF9MhXqSx4c5x7eg&s);
+    }
+}

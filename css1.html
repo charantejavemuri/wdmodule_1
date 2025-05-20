@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS House</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #87CEEB; 
+        }
+        .sun {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: orange; 
+            border-radius: 50%; 
+            box-shadow: 0 0 30px 10px rgba(255, 165, 0, 0.7); 
+        }
+
+        .house {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: #8B4513; 
+        }
+
+        .roof {
+            position: absolute;
+            top: -100px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 100px solid #A52A2A; 
+        }
+
+        .door {
+            position: absolute;
+            bottom: 0;
+            left: 75px;
+            width: 50px;
+            height: 100px;
+            background-color: #e2dfdde1; 
+        }
+
+        .window {
+            position: absolute;
+            top: 50px;
+            left: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: #add8e64b; 
+            border: 2px solid #000; 
+        }
+
+        .window-right {
+            position: absolute;
+            top: 50px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: #ADD8E6;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="house">
+        <div class="sun"></div>
+        <div class="roof"></div>
+        <div class="door"></div>
+        <div class="window"></div>
+        <div class="window-right"></div>
+    </div>
+</body>
+</html>
